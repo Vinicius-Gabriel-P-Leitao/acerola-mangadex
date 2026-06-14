@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"svelte.svelte-vscode",
+		"jinxdash.prettier-rust",
+		"rust-lang.rust-analyzer",
+		"bradlc.vscode-tailwindcss",
+		"inlang.vs-code-extension",
+		"esbenp.prettier-vscode"
+	]
+}

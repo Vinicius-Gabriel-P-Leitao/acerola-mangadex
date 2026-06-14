@@ -1,0 +1,22 @@
+[tasks.format]
+clear = true
+command = "cargo"
+args = ["fmt", "--all"]
+
+[tasks.clippy]
+clear = true
+command = "cargo"
+args = ["clippy", "--all-targets", "--", "-D", "warnings"]
+
+[tasks.nextest]
+clear = true
+command = "cargo"
+args = ["nextest", "run"]
+
+[tasks.check]
+clear = true
+dependencies = ["format", "clippy", "nextest"]
+
+[tasks.default]
+clear = true
+dependencies = ["check"]

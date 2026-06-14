@@ -1,0 +1,11 @@
+{
+  "files.readonlyInclude": {
+    "**/lib/rustlib/src/rust/library/**/*.rs": true,
+    "**/.cargo/git/checkouts/**/*.rs": true,
+    "**/.cargo/registry/src/**/*.rs": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "mod.rs": "*"
+  }
+}
